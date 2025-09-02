@@ -4,7 +4,7 @@ export const Filter = ({ filterData, category, setCategory }) => {
   }
 
   return (
-    <div className="flex items-center justify-center flex-wrap sm:flex-col md:flex-row gap-5 font-medium capitalize lg:text-2xl mt-5">
+    <div className="flex items-center justify-center flex-wrap flex-col sm:flex-row gap-5 font-medium capitalize lg:text-2xl mt-5">
       {filterData.map((data) => {
         return (
           <button

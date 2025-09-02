@@ -31,7 +31,7 @@ export default function Card({ course, likedCourses, setLikedCourses }) {
   };
 
   return (
-    <div className="w-[28%] h-[450px] pb-5 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 hover:shadow-cyan-500/20  transition-transform duration-300 relative">
+    <div className="w-[90%] sm:w-[45%] lg:w-[30%] xl:w-[32%] h-[350px] sm:h-[450px] mx-auto pb-5 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 hover:shadow-cyan-500/20  transition-transform duration-300 relative">
       <div className="relative">
         <img
           src={course.image.url}
@@ -53,9 +53,9 @@ export default function Card({ course, likedCourses, setLikedCourses }) {
       </div>
 
       <div className="mt-5 px-5">
-        <h3 className="text-2xl font-medium">{course.title}</h3>
+        <h3 className="text-xl sm:text-2xl font-medium">{course.title}</h3>
 
-        <p className="mt-2 tracking-wide text-justify italic text-base">
+        <p className="mt-2 tracking-wide text-justify italic text-xs sm:text-base">
           {course.description.length > 110
             ? course.description.slice(0, 110) + " ..."
             : course.description}
@@ -63,7 +63,7 @@ export default function Card({ course, likedCourses, setLikedCourses }) {
       </div>
 
       <button
-        className={`text-xl mx-auto w-full py-2 absolute bottom-0.5 uppercase font-semibold rounded-lg 
+        className={`text-base sm:text-xl mx-auto w-full py-2 absolute bottom-0.5 uppercase font-semibold rounded-lg 
       ${
         enrolled
           ? "bg-green-100 cursor-not-allowed text-black"
