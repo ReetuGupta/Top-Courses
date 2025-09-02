@@ -19,7 +19,7 @@ export default function Cards({ courses, category }) {
   }
 
   return (
-    <div className="mt-5 flex flex-wrap justify-center mx-auto gap-6 max-w-11/12">
+    <div className="mt-5 flex lg:flex-row flex-col flex-wrap justify-center mx-auto gap-6 max-w-11/12">
       {getCourses().map((course) => {
         return (
           <Card
