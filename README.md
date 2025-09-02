@@ -1,12 +1,49 @@
-# React + Vite
+# 🎓 CourseHub | Explore Our Top Courses
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive **React + Tailwind CSS** project that showcases top courses. Users can filter courses by category, like development, design, lifestyle, business, all, and enroll with a smooth UI experience.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Features
 
-## Expanding the ESLint configuration
+- 📚 Courses dynamically fetched from API  
+- 🔎 Category filters (All, Development, etc.)  
+- ❤️ Like/Unlike courses with toast notifications  
+- 🎓 Enroll button with success toast & disabled state after enrolling  
+- ⚡ Responsive modern UI with Tailwind CSS  
+- 🎨 Clean gradients, hover effects & smooth animations  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+- **React 19**  
+- **Tailwind CSS**  
+- **JavaScript (ES6+)**  
+- **React Toastify**  
+- **React Icons**  
+- **Netlify (Deployment)**  
+
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+npm install
+npm run dev   # for development
+npm run build # for production
+```
+
+## 🌐 Live Demo
+
+[👉 View Deployed Site](https://top-courses-reetugupta.netlify.app/)
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+## 🙋‍♀️ Author
+
+**Reetu Gupta**
+[📬 LinkedIn](https://www.linkedin.com/in/reetugupta07)
+
+**Frontend Developer | MERN Stack Enthusiast**
